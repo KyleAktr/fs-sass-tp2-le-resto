@@ -1,1 +1,31 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header {
+  background: red;
+  height: 100vh;
+}
+header nav {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+header nav ul {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+header nav ul li {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+header nav ul i {
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
