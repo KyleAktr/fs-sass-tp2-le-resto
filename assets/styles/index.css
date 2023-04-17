@@ -142,4 +142,116 @@ header .title .title-content p {
 }
 .section-1 .right-container img {
   height: 100%;
+}
+
+.section-2 {
+  height: 190vh;
+  background: rgb(32, 32, 32) url(../../assets/img/bg-menu-01.jpg) no-repeat bottom;
+  text-align: center;
+}
+.section-2 .section-2-header h3 {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  font-family: allura;
+  color: rgb(179, 136, 62);
+  font-size: 1.5rem;
+}
+.section-2 .section-2-header img {
+  width: 20px;
+  margin-bottom: 20px;
+}
+.section-2 .section-2-header nav {
+  height: 15%;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+}
+.section-2 .section-2-header nav ul {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-2 .section-2-header nav ul li {
+  cursor: pointer;
+  font-family: poppins;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.section-2 .menu {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: white;
+  border-top: 5px solid rgb(179, 136, 62);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "plat1 plat5" "plat2 plat6" "plat3 plat7" "plat4 plat8";
+}
+.section-2 .menu .plat1, .section-2 .menu .plat2, .section-2 .menu .plat3, .section-2 .menu .plat4, .section-2 .menu .plat5, .section-2 .menu .plat6, .section-2 .menu .plat7, .section-2 .menu .plat8 {
+  display: grid;
+  position: relative;
+  grid-template-columns: 25% 50% 25%;
+  padding: 30px;
+}
+.section-2 .menu div::before {
+  content: "";
+  width: 50%;
+  height: 0.5px;
+  background: rgb(174, 174, 174);
+  position: absolute;
+  transform: translateX(20%);
+  bottom: 0;
+}
+.section-2 .menu .title-plat {
+  margin: auto 20px;
+  text-align: left;
+}
+.section-2 .menu .title-plat h4 {
+  text-transform: uppercase;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+.section-2 .menu .title-plat p {
+  font-size: 0.7rem;
+  font-family: poppins;
+}
+.section-2 .menu h3 {
+  margin: auto 0;
+  font-family: poppins;
+  color: rgb(179, 136, 62);
+}
+.section-2 .menu img {
+  align-items: center;
+  width: 100%;
+  border-radius: 150px;
+}
+.section-2 .menu .plat1 {
+  grid-area: plat1;
+}
+.section-2 .menu .plat2 {
+  grid-area: plat2;
+}
+.section-2 .menu .plat3 {
+  grid-area: plat3;
+}
+.section-2 .menu .plat4 {
+  grid-area: plat4;
+}
+.section-2 .menu .plat5 {
+  grid-area: plat5;
+}
+.section-2 .menu .plat6 {
+  grid-area: plat6;
+}
+.section-2 .menu .plat7 {
+  grid-area: plat7;
+}
+.section-2 .menu .plat8 {
+  grid-area: plat8;
 }/*# sourceMappingURL=index.css.map */
