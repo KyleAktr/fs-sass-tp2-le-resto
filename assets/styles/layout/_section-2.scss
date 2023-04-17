@@ -1,0 +1,137 @@
+.section-2 {
+    height: 190vh;
+
+    background: rgb(32, 32, 32) url(../../assets/img/bg-menu-01.jpg) no-repeat bottom;
+    text-align: center;
+
+    & .section-2-header{
+
+    & h3 {
+        padding-top: 50px;
+        margin-bottom: 20px;
+        font-family: $font-allura;
+        color: $color-1;
+        font-size: 1.5rem;
+    }
+
+    & img {
+        width: 20px;
+        margin-bottom: 20px;
+    }
+
+    & nav {
+        height: 15%;
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+        align-items: center;
+
+        & ul {
+            color: $color-2;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            
+
+            & li {
+                cursor: pointer;
+                font-family: $font-poppins;
+                font-size: 0.8rem;
+                text-decoration: underline;
+                text-underline-offset: 10px;
+            }
+        }   
+    }
+}
+
+    & .menu {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 30px;
+        background: white;
+        border-top: 5px solid $color-1;;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "plat1 plat5"
+        "plat2 plat6"
+        "plat3 plat7"
+        "plat4 plat8";
+
+        .plat1, .plat2, .plat3, .plat4, .plat5, .plat6, .plat7, .plat8{
+            display: grid;
+            position: relative;
+            grid-template-columns: 25% 50% 25%;
+            padding: 30px;
+        }
+
+        & div::before {
+            content: "";
+            width: 50%;
+            height: 0.5px;
+            // text-decoration-line: dashed;
+            // border-bottom: dashed 0.5px rgb(169, 169, 169);
+            background: rgb(174, 174, 174);
+            position: absolute;
+            transform: translateX(20%);
+            bottom: 0;
+
+        }
+
+        .title-plat {
+            margin: auto 20px;
+            text-align: left;
+
+            & h4 {
+                text-transform: uppercase;
+                font-family: $font-poppins;
+                font-weight: 500;
+                font-size: 0.7rem;
+            }
+            & p {
+                font-size: 0.7rem;
+                font-family: $font-poppins;
+            }
+        }
+
+        h3 {
+            margin: auto 0;
+            font-family: $font-poppins;
+            color: $color-1;
+        }
+
+        img {
+            align-items: center;
+            width: 100%;
+            border-radius: 150px;
+        }
+
+
+        .plat1 {
+            grid-area: plat1;
+        }
+        .plat2 {
+            grid-area: plat2;
+        }
+        .plat3 {
+            grid-area: plat3;
+        }
+        .plat4 {
+            grid-area: plat4;
+        }
+        .plat5 {
+            grid-area: plat5;
+        }
+        .plat6 {
+            grid-area: plat6;
+        }
+        .plat7 {
+            grid-area: plat7;
+        }
+        .plat8 {
+            grid-area: plat8;
+        }
+    }
+}
