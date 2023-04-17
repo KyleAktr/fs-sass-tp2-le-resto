@@ -1,0 +1,64 @@
+.section-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 70vh;
+
+    & .left-container {
+        text-align: center;
+        padding: 20px;
+
+        & .left-container-content {
+            height: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px dashed $color-1;
+        }
+
+        & h3 {
+            font-family: $font-allura;
+            font-size: 1.5rem;
+            color: $color-1;
+            margin-top: 20px;
+        }
+        & h4 {
+            font-family: $font-poppins-bold;
+            text-transform: uppercase;
+            line-height: 10px;
+            margin-bottom: 20px;
+        }
+        & .dash {
+            width: 20px;
+            margin-bottom: 20px;
+        }
+        & p {
+            font-family: $font-poppins;
+            font-size: 0.7rem;
+        }
+        & .chef {
+            margin: 15px auto;
+            width: 80px;
+            border-radius: 150px;
+        }
+        & h5 {
+            font-family: $font-poppins;
+        }
+        & h6 {
+            font-family: $font-poppins;
+            text-transform: uppercase;
+            color: rgb(190, 190, 190);
+            margin-bottom: 20px;
+        }
+    }
+
+
+
+    & .right-container {
+        background: url("../../assets/img/store-01.jpg") center/cover;
+
+        & img {
+            height: 100%;
+        }
+    }
+}

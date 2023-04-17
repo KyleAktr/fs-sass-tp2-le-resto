@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "allura";
+    src: url("../fonts/Allura-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+$font-allura: allura;
+$font-poppins: poppins;
+$font-poppins-bold: poppins-bold;
+
+$color-1: rgb(179, 136, 62);
+$color-2: white;
+
+
 * {
     padding: 0;
     margin: 0;

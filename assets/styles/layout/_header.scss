@@ -1,28 +1,79 @@
 header {
-    background: red;
+    background: url("../../assets/img/bg-slider-06.jpg") center/cover;
     height: 100vh;
 
+    & h3 {
+        font-family: $font-allura;
+        font-size: 2rem;
+        color: $color-2;
+        padding-right: 100px;
+    }
+
     & nav {
+        height: 15%;
         display: flex;
         width: 80%;
         margin: 0 auto;
-        padding-top: 20px;
+        align-items: center;
 
         & ul {
-            color: white;
+            color: $color-2;
             display: flex;
             width: 100%;
             justify-content: space-around;
+            align-items: center;
             
 
             & li {
                 text-transform: uppercase;
                 cursor: pointer;
+                font-family: $font-poppins;
+                font-size: 0.8rem;
             }
 
             & i {
                 padding: 0 10px 0 10px;
                 cursor: pointer;
+            }
+        }
+    }
+
+    & .title {
+        height: 85%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        line-height: 35px;
+
+        & .title-content {
+            margin: 0 auto;
+
+            & h2 {
+                font-family: $font-allura;
+                color: $color-1;
+                font-size: 3rem;
+            }
+
+            & h1 {
+                text-transform: uppercase;
+                color: $color-2;
+                font-family: $font-poppins-bold;
+                letter-spacing: 10px;
+                font-size: 3rem;
+            }
+
+            & img {
+                width: 25px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+
+            & p {
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                color: $color-2;
+                font-family: $font-poppins;
+                font-size: 0.7rem;
             }
         }
     }

@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "allura";
+  src: url("../fonts/Allura-Regular.ttf");
+}
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -6,26 +18,128 @@
 }
 
 header {
-  background: red;
+  background: url("../../assets/img/bg-slider-06.jpg") center/cover;
   height: 100vh;
 }
+header h3 {
+  font-family: allura;
+  font-size: 2rem;
+  color: white;
+  padding-right: 100px;
+}
 header nav {
+  height: 15%;
   display: flex;
   width: 80%;
   margin: 0 auto;
-  padding-top: 20px;
+  align-items: center;
 }
 header nav ul {
   color: white;
   display: flex;
   width: 100%;
   justify-content: space-around;
+  align-items: center;
 }
 header nav ul li {
   text-transform: uppercase;
   cursor: pointer;
+  font-family: poppins;
+  font-size: 0.8rem;
 }
 header nav ul i {
   padding: 0 10px 0 10px;
   cursor: pointer;
+}
+header .title {
+  height: 85%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  line-height: 35px;
+}
+header .title .title-content {
+  margin: 0 auto;
+}
+header .title .title-content h2 {
+  font-family: allura;
+  color: rgb(179, 136, 62);
+  font-size: 3rem;
+}
+header .title .title-content h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: poppins-bold;
+  letter-spacing: 10px;
+  font-size: 3rem;
+}
+header .title .title-content img {
+  width: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+header .title .title-content p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  font-family: poppins;
+  font-size: 0.7rem;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 70vh;
+}
+.section-1 .left-container {
+  text-align: center;
+  padding: 20px;
+}
+.section-1 .left-container .left-container-content {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed rgb(179, 136, 62);
+}
+.section-1 .left-container h3 {
+  font-family: allura;
+  font-size: 1.5rem;
+  color: rgb(179, 136, 62);
+  margin-top: 20px;
+}
+.section-1 .left-container h4 {
+  font-family: poppins-bold;
+  text-transform: uppercase;
+  line-height: 10px;
+  margin-bottom: 20px;
+}
+.section-1 .left-container .dash {
+  width: 20px;
+  margin-bottom: 20px;
+}
+.section-1 .left-container p {
+  font-family: poppins;
+  font-size: 0.7rem;
+}
+.section-1 .left-container .chef {
+  margin: 15px auto;
+  width: 80px;
+  border-radius: 150px;
+}
+.section-1 .left-container h5 {
+  font-family: poppins;
+}
+.section-1 .left-container h6 {
+  font-family: poppins;
+  text-transform: uppercase;
+  color: rgb(190, 190, 190);
+  margin-bottom: 20px;
+}
+.section-1 .right-container {
+  background: url("../../assets/img/store-01.jpg") center/cover;
+}
+.section-1 .right-container img {
+  height: 100%;
 }/*# sourceMappingURL=index.css.map */
