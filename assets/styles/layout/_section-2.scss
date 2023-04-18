@@ -1,7 +1,7 @@
 .section-2 {
     height: 190vh;
 
-    background: rgb(32, 32, 32) url(../../assets/img/bg-menu-01.jpg) no-repeat bottom;
+    background: $bg-grey url(../../assets/img/bg-menu-01.jpg) no-repeat bottom;
     text-align: center;
 
     & .section-2-header{

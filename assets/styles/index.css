@@ -254,4 +254,66 @@ header .title .title-content p {
 }
 .section-2 .menu .plat8 {
   grid-area: plat8;
+}
+
+.section-3 {
+  background: rgb(32, 32, 32);
+}
+
+.section-3-content {
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.section-3-left-container {
+  padding: 20px;
+  width: 35%;
+  grid-area: sec3left;
+  background: black;
+  color: white;
+}
+.section-3-left-container .section-3-left-container-content {
+  border: dashed 1px white;
+  padding: 10px;
+}
+.section-3-left-container .section-3-left-container-content h3 {
+  font-family: allura;
+  color: rgb(179, 136, 62);
+  font-size: 2rem;
+  line-height: 15px;
+  margin-top: 15px;
+}
+.section-3-left-container .section-3-left-container-content h4 {
+  font-family: poppins;
+  text-transform: uppercase;
+}
+.section-3-left-container .section-3-left-container-content img {
+  width: 20px;
+  margin-top: 15px;
+}
+.section-3-left-container .section-3-left-container-content h5 {
+  margin-top: 15px;
+  font-family: poppins;
+  text-transform: uppercase;
+  color: rgb(179, 136, 62);
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.section-3-left-container .section-3-left-container-content p {
+  font-family: poppins;
+  font-size: 0.7rem;
+}
+
+.section-3-right-container {
+  width: 65%;
+  grid-area: sec3right;
+  background: white;
+}
+.section-3-right-container .section-3-right-container-content {
+  text-align: center;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
