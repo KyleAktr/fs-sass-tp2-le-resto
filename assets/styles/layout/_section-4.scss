@@ -1,0 +1,183 @@
+.section-4 {
+    background: $bg-grey;
+    color: $color-2;;
+    padding-top: 80px;
+
+    & .section-4-header {
+        text-align: center;
+
+        & h3 {
+            font-family: $font-allura;
+            color: $color-1;
+            font-size: 2rem;
+            line-height: 20px;
+        }
+        & h2 {
+            font-family: $font-poppins-bold;
+            text-transform: uppercase;
+            color: $color-2;
+            letter-spacing: 2px;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+        & img {
+            width: 20px;
+            margin-bottom: 40px;
+        }
+    }
+
+    & .grid-cards {
+        width: 65%;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "c1 c3"
+        "c2 c3"
+        ;
+        grid-gap: 15px;
+
+        & h4 {
+            font-family: $font-poppins;
+            font-weight: 100;
+            margin-bottom: 10px;
+        }
+        & p {
+            font-family: $font-poppins;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            color: rgb(160, 160, 160);
+        }
+        & h5 {
+            font-family: $font-poppins;
+            text-transform: uppercase;
+            font-weight: 200;
+            font-size: 0.8rem;
+            margin-top: 10px;
+            letter-spacing: 2px;
+        }
+
+        & .section-4-card-1 {
+            grid-area: c1;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-areas: 
+            "lc1 rc1";
+
+            & .left-card-1 {
+            background: url(../../assets/img/event-01.jpg) center/cover;
+            grid-area: lc1;
+            display: flex;
+            align-items: center;
+
+            & .lc1-content {
+                background: $bg-grey;
+                margin: 0 auto;
+                text-align: center;
+                align-items: center;
+                padding: 10px 15px;
+
+                & h4 {
+                    margin-bottom: -5px;
+                }
+            }
+            }
+            & .right-card-1 {
+            grid-area: rc1;
+            background: $color-2;
+            color: black;
+            padding: 20px;
+            }
+        }
+
+
+        & .section-4-card-2 {
+            grid-area: c2;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-areas: 
+            "lc2 rc2";
+
+            & .left-card-2 {
+                background: url(../../assets/img/event-02.jpg) center/cover;
+                grid-area: lc2;
+                display: flex;
+                align-items: center;
+
+                & .lc2-content {
+                    background: $bg-grey;
+                    padding: 10px 15px;
+                    margin: 0 auto;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+
+                    & h4 {
+                        margin-bottom: -5px;
+                    }
+                }
+            }
+            & .right-card-2 {
+                grid-area: rc2;
+                background: $color-2;
+                color: black;
+                padding: 20px;
+            }
+
+        }
+
+
+        & .section-4-card-3 {
+            grid-area: c3;
+            background: url(../../assets/img/event-03.jpg) center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & .right-card-content {
+                width: 90%;
+                height: 90%;
+                background-color: $color-2;
+
+                & .top-card {
+                    width: 55px;
+                    background: $bg-grey;
+                    margin: 0 auto;
+                    text-align: center;
+                    align-items: center;
+                    padding: 10px 15px;
+
+                    & h4 {
+                        margin-bottom: -5px;
+                    }
+                }
+                & .bottom-of-card {
+
+                    & h4 {
+                        color: black;
+                        font-family: $font-poppins;
+                        text-align: center;
+                        padding: 20px;
+                        margin-bottom: 0;
+                    }
+                    & p {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    & h5 {
+                        color: black;
+                        font-family: $font-poppins;
+                        margin-top: 30px;
+                        display: flex;
+                        justify-content: center;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
