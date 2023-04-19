@@ -145,8 +145,8 @@ header .title .title-content p {
 }
 
 .section-2 {
-  height: 190vh;
   background: rgb(32, 32, 32) url(../../assets/img/bg-menu-01.jpg) no-repeat bottom;
+  background-size: auto 70%;
   text-align: center;
 }
 .section-2 .section-2-header h3 {
@@ -312,8 +312,57 @@ header .title .title-content p {
   width: 65%;
   grid-area: sec3right;
   background: white;
+  display: flex;
 }
 .section-3-right-container .section-3-right-container-content {
-  text-align: center;
+  height: 80%;
   align-items: center;
+  margin: auto 0;
+}
+.section-3-right-container .section-3-right-container-content h3 {
+  font-family: allura;
+  color: rgb(179, 136, 62);
+  font-size: 1.7rem;
+}
+.section-3-right-container .section-3-right-container-content h2 {
+  font-family: poppins-bold;
+  text-transform: uppercase;
+  line-height: 15px;
+  margin-bottom: 30px;
+}
+.section-3-right-container .section-3-right-container-content img {
+  width: 20px;
+  margin-bottom: 25px;
+}
+.section-3-right-container .section-3-right-container-content form {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.section-3-right-container .section-3-right-container-content form select {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  background: white;
+  font-family: poppins;
+}
+.section-3-right-container .section-3-right-container-content form input {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: poppins;
+}
+.section-3-right-container .section-3-right-container-content button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  border-radius: 150px;
+  background: black;
+  color: white;
+  border: none;
+  font-family: poppins-bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */

@@ -59,10 +59,64 @@
     width: 65%;
     grid-area: sec3right;
     background: $color-2;
+    display: flex;
+
 
     & .section-3-right-container-content {
-        text-align: center;
+        height: 80%;
         align-items: center;
+        margin: auto 0;
+
+        & h3 {
+            font-family: $font-allura;
+            color: $color-1;
+            font-size: 1.7rem;
+        }
+        & h2 {
+            font-family: $font-poppins-bold;
+            text-transform: uppercase;
+            line-height: 15px;
+            margin-bottom: 30px;
+        }
+        & img {
+            width: 20px;
+            margin-bottom: 25px;
+        }
+        & form {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+
+            & select {
+                width: 150px;
+                padding: 10px;
+                border: none;
+                margin-bottom: 10px;
+                background: $color-2;
+                font-family: $font-poppins;
+            }
+
+            & input {
+                width: 150px;
+                padding: 10px;
+                border: none;
+                margin-bottom: 10px;
+                font-family: $font-poppins;
+            }
+        }
+
+        & button {
+            margin-top: 20px;
+            padding: 10px 35px;
+            border-radius: 150px;
+            background: black;
+            color: $color-2;
+            border: none;
+            font-family: $font-poppins-bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+        }
     }
 }
 
