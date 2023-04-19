@@ -256,6 +256,10 @@ header .title .title-content p {
   grid-area: plat8;
 }
 
+.menu-container {
+  padding-bottom: 100px;
+}
+
 .section-3 {
   background: rgb(32, 32, 32);
 }
@@ -365,4 +369,9 @@ header .title .title-content p {
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+.section-4 {
+  background: rgb(32, 32, 32);
+  color: white;
 }/*# sourceMappingURL=index.css.map */
