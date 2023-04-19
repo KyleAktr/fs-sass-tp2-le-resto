@@ -374,4 +374,154 @@ header .title .title-content p {
 .section-4 {
   background: rgb(32, 32, 32);
   color: white;
+  padding-top: 80px;
+}
+.section-4 .section-4-header {
+  text-align: center;
+}
+.section-4 .section-4-header h3 {
+  font-family: allura;
+  color: rgb(179, 136, 62);
+  font-size: 2rem;
+  line-height: 20px;
+}
+.section-4 .section-4-header h2 {
+  font-family: poppins-bold;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.section-4 .section-4-header img {
+  width: 20px;
+  margin-bottom: 40px;
+}
+.section-4 .grid-cards {
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "c1 c3" "c2 c3";
+  grid-gap: 15px;
+}
+.section-4 .grid-cards h4 {
+  font-family: poppins;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.section-4 .grid-cards p {
+  font-family: poppins;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: rgb(160, 160, 160);
+}
+.section-4 .grid-cards h5 {
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.section-4 .grid-cards .section-4-card-1 {
+  grid-area: c1;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "lc1 rc1";
+}
+.section-4 .grid-cards .section-4-card-1 .left-card-1 {
+  background: url(../../assets/img/event-01.jpg) center/cover;
+  grid-area: lc1;
+  display: flex;
+  align-items: center;
+}
+.section-4 .grid-cards .section-4-card-1 .left-card-1 .lc1-content {
+  background: rgb(32, 32, 32);
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 10px 15px;
+}
+.section-4 .grid-cards .section-4-card-1 .left-card-1 .lc1-content h4 {
+  margin-bottom: -5px;
+}
+.section-4 .grid-cards .section-4-card-1 .right-card-1 {
+  grid-area: rc1;
+  background: white;
+  color: black;
+  padding: 20px;
+}
+.section-4 .grid-cards .section-4-card-2 {
+  grid-area: c2;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "lc2 rc2";
+}
+.section-4 .grid-cards .section-4-card-2 .left-card-2 {
+  background: url(../../assets/img/event-02.jpg) center/cover;
+  grid-area: lc2;
+  display: flex;
+  align-items: center;
+}
+.section-4 .grid-cards .section-4-card-2 .left-card-2 .lc2-content {
+  background: rgb(32, 32, 32);
+  padding: 10px 15px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.section-4 .grid-cards .section-4-card-2 .left-card-2 .lc2-content h4 {
+  margin-bottom: -5px;
+}
+.section-4 .grid-cards .section-4-card-2 .right-card-2 {
+  grid-area: rc2;
+  background: white;
+  color: black;
+  padding: 20px;
+}
+.section-4 .grid-cards .section-4-card-3 {
+  grid-area: c3;
+  background: url(../../assets/img/event-03.jpg) center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-4 .grid-cards .section-4-card-3 .right-card-content {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+}
+.section-4 .grid-cards .section-4-card-3 .right-card-content .top-card {
+  width: 55px;
+  background: rgb(32, 32, 32);
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 10px 15px;
+}
+.section-4 .grid-cards .section-4-card-3 .right-card-content .top-card h4 {
+  margin-bottom: -5px;
+}
+.section-4 .grid-cards .section-4-card-3 .right-card-content .bottom-of-card h4 {
+  color: black;
+  font-family: poppins;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}
+.section-4 .grid-cards .section-4-card-3 .right-card-content .bottom-of-card p {
+  display: flex;
+  justify-content: center;
+}
+.section-4 .grid-cards .section-4-card-3 .right-card-content .bottom-of-card h5 {
+  color: black;
+  font-family: poppins;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=index.css.map */
