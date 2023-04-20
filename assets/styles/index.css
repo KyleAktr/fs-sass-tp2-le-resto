@@ -489,6 +489,7 @@ header .title .title-content p {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 300px;
 }
 .section-4 .grid-cards .section-4-card-3 .right-card-content {
   width: 90%;
@@ -516,6 +517,7 @@ header .title .title-content p {
 .section-4 .grid-cards .section-4-card-3 .right-card-content .bottom-of-card p {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .section-4 .grid-cards .section-4-card-3 .right-card-content .bottom-of-card h5 {
   color: black;
