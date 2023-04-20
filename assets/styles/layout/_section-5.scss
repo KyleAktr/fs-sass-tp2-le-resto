@@ -1,5 +1,50 @@
 .section-5 {
-    background: $bg-grey url(../../assets/img/gmap.jpg) no-repeat center bottom;
+    background: url(../../assets/img/gmap.jpg) no-repeat center bottom;
     background-position: 50%;
     background-size: 100%;
+    padding-bottom: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    & .section-5-content {
+        position: absolute;
+        position: relative;        
+        width: 80%;
+        background: $color-2;
+        bottom: 150px;
+        height: 250px;
+        text-align: center;   
+        display: flex;  
+        justify-content: center;   
+        align-items: center;
+
+        & img {
+            position: absolute;
+            width: 50px;
+            border-radius: 150px;
+            top: -20px;
+            
+        }       
+
+        & .section-5-txt-content {
+            font-family: $font-poppins;
+
+            & p {
+                margin: auto 80px;
+                font-size: 0.8rem;
+                line-height: 30px;
+                margin-bottom: 15px;
+            }
+            & h2 {
+                margin-bottom: 15px;
+            }
+            & h4 {
+                color: $color-1;
+            }
+            
+        } 
+    }
 }
