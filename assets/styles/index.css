@@ -526,4 +526,10 @@ header .title .title-content p {
   display: flex;
   justify-content: center;
   letter-spacing: 2px;
+}
+
+.section-5 {
+  background: rgb(32, 32, 32) url(../../assets/img/gmap.jpg) no-repeat center bottom;
+  background-position: 50%;
+  background-size: 100%;
 }/*# sourceMappingURL=index.css.map */
