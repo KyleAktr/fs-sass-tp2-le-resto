@@ -1,0 +1,46 @@
+// *********** HEADER ************
+
+@media screen and (max-width: 480px){
+
+    header {
+        height: 80vh;
+        & nav {
+            & ul {
+                justify-content: end;
+
+                & li:not(.icons) {
+                    display: none;
+                }
+            }
+        }
+        & .title { 
+            & .title-content {
+                & h2 {
+                    font-size: 2rem;
+                    margin-bottom: 20px;
+                }        
+                & h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .section-1 {
+        display: block;
+        min-height: 400px;
+        
+        
+        & .right-container {
+            display: none;
+        }
+    }
+
+    & .section-2 {
+        & .menu-container {
+            & .menu {
+                display: block;
+            }
+        }
+    }
+}

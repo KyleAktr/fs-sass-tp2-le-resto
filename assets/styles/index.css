@@ -622,4 +622,30 @@ footer .footer-content .footer-right .follow i {
 }
 .section-5 .section-5-content .section-5-txt-content h4 {
   color: rgb(179, 136, 62);
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 80vh;
+  }
+  header nav ul {
+    justify-content: end;
+  }
+  header nav ul li:not(.icons) {
+    display: none;
+  }
+  header .title .title-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  header .title .title-content h1 {
+    font-size: 2rem;
+  }
+  .section-1 {
+    display: block;
+    min-height: 400px;
+  }
+  .section-1 .right-container {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
