@@ -1,4 +1,4 @@
-// *********** HEADER ************
+// *********** Mobile ************
 
 @media screen and (max-width: 480px){
 
@@ -36,11 +36,53 @@
         }
     }
 
-    & .section-2 {
+    .section-2 {
+        & .section-2-header nav {
+            width: 80%;
+        }
         & .menu-container {
             & .menu {
                 display: block;
+                width: 85%;
+                & h4 {
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                }
+                & p {
+                    font-size: 0.8rem;
+                    color: rgb(134, 134, 134);
+                    margin-top: 15px;
+                }
+                & div::before {
+                    transform: translateX(15%);
+                }
             }
         }
+    }
+
+    .section-3-content {
+        display: block;
+        width: 90%;
+
+        & .section-3-left-container {
+            width: 100%;
+        }
+        & .section-3-right-container {
+            width: 100%;
+            padding-bottom: 50px;
+            padding-top: 30px;
+
+            & h3 {
+                font-size: 2rem;
+            }
+
+            & input {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+
+    .section-4 {
+        display: none;
     }
 }

@@ -648,4 +648,44 @@ footer .footer-content .footer-right .follow i {
   .section-1 .right-container {
     display: none;
   }
+  .section-2 .section-2-header nav {
+    width: 80%;
+  }
+  .section-2 .menu-container .menu {
+    display: block;
+    width: 85%;
+  }
+  .section-2 .menu-container .menu h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .section-2 .menu-container .menu p {
+    font-size: 0.8rem;
+    color: rgb(134, 134, 134);
+    margin-top: 15px;
+  }
+  .section-2 .menu-container .menu div::before {
+    transform: translateX(15%);
+  }
+  .section-3-content {
+    display: block;
+    width: 90%;
+  }
+  .section-3-content .section-3-left-container {
+    width: 100%;
+  }
+  .section-3-content .section-3-right-container {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .section-3-content .section-3-right-container h3 {
+    font-size: 2rem;
+  }
+  .section-3-content .section-3-right-container input {
+    border-bottom: 1px solid black;
+  }
+  .section-4 {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
