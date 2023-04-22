@@ -85,4 +85,43 @@
     .section-4 {
         display: none;
     }
+
+    .section-5 {
+        background: $bg-grey;
+
+        & .section-5-content {
+            margin-top: 250px;
+            height: auto;
+            width: 90%;
+
+            & .section-5-txt-content p {
+                margin: 40px 10px 20px 10px;
+            }
+            & .section-5-txt-content h4 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    footer {
+        background: rgb(10, 10, 10);
+
+        & .footer-content {
+            width: 90%;
+            
+            & .footer-left {
+                display: none;
+            }
+            & .footer-right {
+                width: 100%;
+
+                & .follow {
+                    width: 100%;
+
+                        font-size: 0.8rem;
+                   
+                }
+            }
+        }        
+    }
+    
 }
