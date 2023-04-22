@@ -688,4 +688,34 @@ footer .footer-content .footer-right .follow i {
   .section-4 {
     display: none;
   }
+  .section-5 {
+    background: rgb(32, 32, 32);
+  }
+  .section-5 .section-5-content {
+    margin-top: 250px;
+    height: auto;
+    width: 90%;
+  }
+  .section-5 .section-5-content .section-5-txt-content p {
+    margin: 40px 10px 20px 10px;
+  }
+  .section-5 .section-5-content .section-5-txt-content h4 {
+    margin-bottom: 20px;
+  }
+  footer {
+    background: rgb(10, 10, 10);
+  }
+  footer .footer-content {
+    width: 90%;
+  }
+  footer .footer-content .footer-left {
+    display: none;
+  }
+  footer .footer-content .footer-right {
+    width: 100%;
+  }
+  footer .footer-content .footer-right .follow {
+    width: 100%;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=index.css.map */
