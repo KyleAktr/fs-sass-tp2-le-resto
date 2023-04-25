@@ -1,3 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.fa-solid {
+  position: fixed;
+  color: aliceblue;
+  bottom: 40px;
+  right: 40px;
+  font-size: 2.5rem;
+  z-index: 2;
+  border: 3px solid white;
+  padding: 15px 20px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+
 @font-face {
   font-family: "allura";
   src: url("../fonts/Allura-Regular.ttf");
@@ -46,6 +63,14 @@ header nav ul li {
   cursor: pointer;
   font-family: poppins;
   font-size: 0.8rem;
+}
+header nav ul li a:visited {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a:link {
+  text-decoration: none;
+  color: white;
 }
 header nav ul i {
   padding: 0 10px 0 10px;

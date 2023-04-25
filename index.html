@@ -15,17 +15,17 @@
     <link rel="stylesheet" href="./assets/styles/index.css" />
   </head>
   <body>
+    <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+
     <header>
       <nav>
         <h3>Resto</h3>
         <ul>
-          <li>home</li>
-          <li>reservations</li>
-          <li>menu</li>
-          <li>blog</li>
-          <li>pages</li>
-          <li>shop</li>
-          <li>contact</li>
+          <li><a href="#reservations">reservations</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#events">events</a></li>
+          <li><a href="#contact">contact</a></li>
           <li class="icons">
             <i class="fa-brands fa-facebook-f"></i
             ><i class="fa-brands fa-twitter"></i
@@ -43,7 +43,7 @@
       </div>
     </header>
 
-    <section class="section-1">
+    <section class="section-1" id="blog" style="z-index: 3">
       <div class="left-container">
         <div class="left-container-content">
           <div class="left-container-content-element">
@@ -74,7 +74,7 @@
       <div class="right-container"></div>
     </section>
 
-    <section class="section-2">
+    <section class="section-2" id="menu">
       <div class="section-2-header">
         <h3>Discover</h3>
         <img src="./assets/img/ic-plate.png" alt="cook-image" />
@@ -158,7 +158,7 @@
       </div>
     </section>
 
-    <section class="section-3">
+    <section class="section-3" id="reservations">
       <div class="section-3-content">
         <div class="section-3-left-container">
           <div class="section-3-left-container-content">
@@ -223,7 +223,7 @@
       </div>
     </section>
 
-    <section class="section-4">
+    <section class="section-4" id="events">
       <div class="section-4-content">
         <div class="section-4-header">
           <h3>Upcoming</h3>
@@ -294,7 +294,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
       <div class="footer-content">
         <div class="footer-left">
           <h3>Resto</h3>
