@@ -650,6 +650,13 @@ footer .footer-content .footer-right .follow i {
 }
 
 @media screen and (max-width: 480px) {
+  .fa-solid {
+    font-size: 1rem;
+    padding: 10px 12px;
+    border: 2px solid white;
+    right: 15px;
+    bottom: 15px;
+  }
   header {
     height: 100vh;
   }
