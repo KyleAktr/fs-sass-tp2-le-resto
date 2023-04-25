@@ -29,7 +29,17 @@ header {
                 cursor: pointer;
                 font-family: $font-poppins;
                 font-size: 0.8rem;
+
+                & a:visited {
+                    text-decoration: none;
+                    color:$color-2;
+                }
+                & a:link {
+                    text-decoration: none;
+                    color:$color-2;
+                }
             }
+
 
             & i {
                 padding: 0 10px 0 10px;
