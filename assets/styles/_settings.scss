@@ -18,17 +18,18 @@ html {
 
 @font-face {
     font-family: "allura";
-    src: url("../fonts/Allura-Regular.ttf");
+    src: url("../fonts/Allura-Regular.ttf") swap;
+    
 }
 
 @font-face {
     font-family: "poppins";
-    src: url(../fonts/Poppins-Regular.ttf);
+    src: url(../fonts/Poppins-Regular.ttf) swap;
 }
 
 @font-face {
     font-family: "poppins-bold";
-    src: url(../fonts/Poppins-Medium.ttf);
+    src: url(../fonts/Poppins-Medium.ttf) swap;
 }
 
 $font-allura: allura;
